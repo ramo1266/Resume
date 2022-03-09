@@ -3292,6 +3292,9 @@ input, select, textarea {
 		.wrapper.style3-alt {
 			background-color: #493382;
 		}
+		.wrapper.styleBlack{
+			background-color: black;
+		}
 
 		.wrapper.fullscreen {
 			display: -moz-flex;
@@ -3554,7 +3557,8 @@ input, select, textarea {
 
 	#sidebar {
 		padding: 2.5em 2.5em 0.5em 2.5em ;
-		background: #1c0258;
+		/* background: #1c0258; */
+		background: black;
 		cursor: default;
 		height: 100vh;
 		left: 0;
@@ -3767,7 +3771,7 @@ input, select, textarea {
 			-ms-transition: color 0.2s ease;
 			transition: color 0.2s ease;
 			border: 0;
-			color: rgba(255, 255, 255, 0.35);
+			color: rgba(255, 255, 255, 0.575);
 			display: block;
 			font-size: 0.6em;
 			font-weight: bold;
@@ -3791,14 +3795,19 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:before {
-				background: #4e06f8;
+				/* background: #4e06f8; */
+				background: gray;
 			}
 
 			#sidebar nav a:after {
+				/* 
 				background-image: -moz-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -webkit-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: -ms-linear-gradient(to right, #5e42a6, #b74e91);
 				background-image: linear-gradient(to right, #5e42a6, #b74e91);
+				*/
+				background: rgb(223, 215, 215);
+
 				-moz-transition: max-width 0.2s ease;
 				-webkit-transition: max-width 0.2s ease;
 				-ms-transition: max-width 0.2s ease;
@@ -3807,7 +3816,7 @@ input, select, textarea {
 			}
 
 			#sidebar nav a:hover {
-				color: rgba(255, 255, 255, 0.55);
+				color: rgba(255, 255, 255, 0.842);
 			}
 
 			#sidebar nav a.active {
@@ -3887,7 +3896,8 @@ input, select, textarea {
 
 						#sidebar nav a:after {
 							background-image: none;
-							background-color: #b74e91;
+							/* background-color: #b74e91; */
+							background: rgb(218, 215, 215)
 						}
 
 		}
